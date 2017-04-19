@@ -12,33 +12,30 @@ body{
 .caja{
   width: 200px;
   height: 200px;
-  position: absolute;
+
+
 
 }
 
 #rosa{
   background-color: #EE3E64;
 
-  left: 0;
-  top: 0;
-
 }
  #azul{
    background-color: #00BFFF;
-
-   right: 0;
-   top: 0;
+   position:absolute;
+   display: inline:block;
+   left: 200px;
 
  }
 
  #verde{
    background-color: #01DF01;
-   left: 0;
-   bottom: 0;
-}
+   position:relative;
+ }
 
- #amarilla{
+
+#amarillo{
    background-color: #FFFF00;
-   right: 0;
-   bottom: 0;
+
  }
